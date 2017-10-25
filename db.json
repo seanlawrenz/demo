@@ -1,14 +1,674 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "board": {
+    "colors": [
+      {
+        "name": "default",
+        "label": "",
+        "cssClass": "default"
+      },
+      {
+        "name": "primary",
+        "label": "",
+        "cssClass": "primary"
+      },
+      {
+        "name": "success",
+        "label": "",
+        "cssClass": "success"
+      },
+      {
+        "name": "info",
+        "label": "",
+        "cssClass": "info"
+      },
+      {
+        "name": "warning",
+        "label": "",
+        "cssClass": "warning"
+      },
+      {
+        "name": "danger",
+        "label": "",
+        "cssClass": "danger"
+      }
+    ],
+    "description": "",
+    "iAmProjectManager": false,
+    "iCanEditPlans": true,
+    "id": 2826249,
+    "isAttachmentsEnabled": true,
+    "isFeedEnabled": true,
+    "isIssuesEnabled": true,
+    "isResourceAssignmentEnabled": true,
+    "isTaskUpdateEnabled": true,
+    "isTemplate": true,
+    "isTicketToTaskEnabled": true,
+    "isTimeEntryEnabled": true,
+    "lists": [
+      {
+        "active": true,
+        "cards": [
+          {
+            "attachmentsCount": 0,
+            "cssClass": "default",
+            "description": "",
+            "endDate": null,
+            "estimatedHours": 0,
+            "id": 2871046,
+            "isStory": false,
+            "issuesCount": 0,
+            "listId": 0,
+            "name": "Test",
+            "openIssuesCount": 0,
+            "openSubtasksCount": 0,
+            "order": 1,
+            "owners": null,
+            "percentComplete": 0,
+            "planId": 2826249,
+            "priorityId": 0,
+            "projectId": 296250,
+            "remainingHours": 0,
+            "startDate": null,
+            "storyPoints": 0,
+            "subtasksCount": 0,
+            "ticketAppID": -1,
+            "ticketID": -1,
+            "valuePoints": 0,
+            "version": "189761155"
+          },
+          {
+            "attachmentsCount": 0,
+            "cssClass": "default",
+            "description": "",
+            "endDate": null,
+            "estimatedHours": 0,
+            "id": 2871052,
+            "isStory": false,
+            "issuesCount": 0,
+            "listId": 0,
+            "name": "testing",
+            "openIssuesCount": 0,
+            "openSubtasksCount": 0,
+            "order": 2,
+            "owners": null,
+            "percentComplete": 0,
+            "planId": 2826249,
+            "priorityId": 0,
+            "projectId": 296250,
+            "remainingHours": 0,
+            "startDate": null,
+            "storyPoints": 0,
+            "subtasksCount": 0,
+            "ticketAppID": -1,
+            "ticketID": -1,
+            "valuePoints": 0,
+            "version": "189761156"
+          },
+          {
+            "attachmentsCount": 0,
+            "cssClass": "default",
+            "description": "",
+            "endDate": null,
+            "estimatedHours": 0,
+            "id": 2872100,
+            "isStory": false,
+            "issuesCount": 0,
+            "listId": 0,
+            "name": "gdgdgdgd",
+            "openIssuesCount": 0,
+            "openSubtasksCount": 0,
+            "order": 2,
+            "owners": null,
+            "percentComplete": 0,
+            "planId": 2826249,
+            "priorityId": 0,
+            "projectId": 296250,
+            "remainingHours": 0,
+            "startDate": null,
+            "storyPoints": 0,
+            "subtasksCount": 0,
+            "ticketAppID": -1,
+            "ticketID": -1,
+            "valuePoints": 0,
+            "version": "189761157"
+          }
+        ],
+        "description": "",
+        "id": 0,
+        "limits": [],
+        "order": -1,
+        "percentComplete": null,
+        "planId": 2826249,
+        "projectId": 29626250,
+        "statusTypeId": 0,
+        "title": "Archive"
+      },
+      {
+        "active": true,
+        "cards": [],
+        "description": null,
+        "id": 33666,
+        "limits": [],
+        "order": 1,
+        "percentComplete": null,
+        "planId": 2826249,
+        "projectId": 29626250,
+        "statusTypeId": 1,
+        "title": "New"
+      },
+      {
+        "active": true,
+        "cards": [],
+        "description": null,
+        "id": 33667,
+        "limits": [],
+        "order": 2,
+        "percentComplete": null,
+        "planId": 2826249,
+        "projectId": 29626250,
+        "statusTypeId": 2,
+        "title": "In Process"
+      },
+      {
+        "active": true,
+        "cards": [],
+        "description": null,
+        "id": 33669,
+        "limits": [],
+        "order": 3,
+        "percentComplete": null,
+        "planId": 2826249,
+        "projectId": 29626250,
+        "statusTypeId": 2,
+        "title": "Test Pass Completed"
+      },
+      {
+        "active": true,
+        "cards": [
+          {
+            "attachmentsCount": 0,
+            "cssClass": "warning",
+            "description": "See subtasks for testing items.",
+            "endDate": "2017-10-21T00:00:00",
+            "estimatedHours": 3,
+            "id": 2826257,
+            "isStory": false,
+            "issuesCount": 5,
+            "listId": 33668,
+            "name": "Angular Plan Manager",
+            "openIssuesCount": 0,
+            "openSubtasksCount": 0,
+            "order": 1,
+            "owners": [
+              {
+                "email": "meland@teamdynamix.com",
+                "firstName": "Matt",
+                "lastName": "Eland",
+                "name": "Matt Eland",
+                "permissions": null,
+                "profilePicturePath": "assets/images/matteleand.jpeg",
+                "referenceId": 8586,
+                "uid": "241e76b7-5854-4c94-9d95-aebbb162c60f"
+              },
+              {
+                "email": "sean.lawrenz@teamdynamix.com",
+                "firstName": "Sean",
+                "lastName": "Lawrenz",
+                "name": "Sean Lawrenz",
+                "permissions": null,
+                "profilePicturePath": "assets/images/seanlawrenz.jpeg",
+                "referenceId": 582769,
+                "uid": "a93d7337-ba6e-e511-b52c-000d3a113e84"
+              }
+            ],
+            "percentComplete": 100,
+            "planId": 2826249,
+            "priorityId": 0,
+            "projectId": 29626250,
+            "remainingHours": 0,
+            "startDate": "2017-10-21T00:00:00",
+            "storyPoints": 0,
+            "subtasksCount": 11,
+            "ticketAppID": -1,
+            "ticketID": -1,
+            "valuePoints": 0,
+            "version": "190658120"
+          },
+          {
+            "attachmentsCount": 0,
+            "cssClass": "default",
+            "description": "See subtasks for testing items.",
+            "endDate": null,
+            "estimatedHours": 3,
+            "id": 2826281,
+            "isStory": false,
+            "issuesCount": 2,
+            "listId": 33668,
+            "name": "T&E System",
+            "openIssuesCount": 0,
+            "openSubtasksCount": 0,
+            "order": 2,
+            "owners": [
+              {
+                "email": "spencer.lucas@teamdynamix.com",
+                "firstName": "Spencer",
+                "lastName": "Lucas",
+                "name": "Spencer Lucas",
+                "permissions": null,
+                "profilePicturePath": "assets/images/spencerlucas.jpeg",
+                "referenceId": 4391749,
+                "uid": "cf5e2f84-4983-e711-a950-000d3a1afc30"
+              }
+            ],
+            "percentComplete": 100,
+            "planId": 2826249,
+            "priorityId": 0,
+            "projectId": 29626250,
+            "remainingHours": 0,
+            "startDate": null,
+            "storyPoints": 0,
+            "subtasksCount": 9,
+            "ticketAppID": -1,
+            "ticketID": -1,
+            "valuePoints": 0,
+            "version": "189852628"
+          },
+          {
+            "attachmentsCount": 0,
+            "cssClass": "default",
+            "description": "See subtasks for testing items",
+            "endDate": null,
+            "estimatedHours": 2,
+            "id": 2826297,
+            "isStory": false,
+            "issuesCount": 8,
+            "listId": 33668,
+            "name": "Client Portal",
+            "openIssuesCount": 0,
+            "openSubtasksCount": 0,
+            "order": 3,
+            "owners": [
+              {
+                "email": "meland@teamdynamix.com",
+                "firstName": "Matt",
+                "lastName": "Eland",
+                "name": "Matt Eland",
+                "permissions": null,
+                "profilePicturePath": "assets/images/matteleand.jpeg",
+                "referenceId": 8586,
+                "uid": "241e76b7-5854-4c94-9d95-aebbb162c60f"
+              },
+              {
+                "email": "sean.lawrenz@teamdynamix.com",
+                "firstName": "Sean",
+                "lastName": "Lawrenz",
+                "name": "Sean Lawrenz",
+                "permissions": null,
+                "profilePicturePath": "assets/images/seanlawrenz.jpeg",
+                "referenceId": 582769,
+                "uid": "a93d7337-ba6e-e511-b52c-000d3a113e84"
+              }
+            ],
+            "percentComplete": 100,
+            "planId": 2826249,
+            "priorityId": 0,
+            "projectId": 29626250,
+            "remainingHours": 0,
+            "startDate": null,
+            "storyPoints": 0,
+            "subtasksCount": 3,
+            "ticketAppID": -1,
+            "ticketID": -1,
+            "valuePoints": 0,
+            "version": "189852631"
+          },
+          {
+            "attachmentsCount": 0,
+            "cssClass": "default",
+            "description": "",
+            "endDate": null,
+            "estimatedHours": 0,
+            "id": 2826303,
+            "isStory": false,
+            "issuesCount": 1,
+            "listId": 33668,
+            "name": "Questions / Answers",
+            "openIssuesCount": 0,
+            "openSubtasksCount": 0,
+            "order": 4,
+            "owners": [
+              {
+                "email": "robert.osur@teamdynamix.com",
+                "firstName": "Robert",
+                "lastName": "Osur",
+                "name": "Robert Osur",
+                "permissions": null,
+                "profilePicturePath": "assets/images/robertosur.jpeg",
+                "referenceId": 582769,
+                "uid": "d5baeb97-69f2-e411-aebe-0010188dda92"
+              }
+            ],
+            "percentComplete": 100,
+            "planId": 2826249,
+            "priorityId": 0,
+            "projectId": 29626250,
+            "remainingHours": 0,
+            "startDate": null,
+            "storyPoints": 0,
+            "subtasksCount": 0,
+            "ticketAppID": -1,
+            "ticketID": -1,
+            "valuePoints": 0,
+            "version": "189852634"
+          },
+          {
+            "attachmentsCount": 0,
+            "cssClass": "default",
+            "description": "Note that Card Wall, Angular Plan Manager, and Windows Plan Manager all deal with Plans and Task operations and will hit that system pretty heavily, but we still want to be sure that we look at things like Task Details web pages still function properly and we need a misc. bucket for that purpose.",
+            "endDate": null,
+            "estimatedHours": 0,
+            "id": 2829234,
+            "isStory": false,
+            "issuesCount": 2,
+            "listId": 33668,
+            "name": "Tasks (Misc. items not covered by other cards)",
+            "openIssuesCount": 0,
+            "openSubtasksCount": 0,
+            "order": 5,
+            "owners": [
+              {
+                "email": "meland@teamdynamix.com",
+                "firstName": "Matt",
+                "lastName": "Eland",
+                "name": "Matt Eland",
+                "permissions": null,
+                "profilePicturePath": "assets/images/matteleand.jpeg",
+                "referenceId": 8586,
+                "uid": "241e76b7-5854-4c94-9d95-aebbb162c60f"
+              }
+            ],
+            "percentComplete": 100,
+            "planId": 2826249,
+            "priorityId": 0,
+            "projectId": 29626250,
+            "remainingHours": 0,
+            "startDate": null,
+            "storyPoints": 0,
+            "subtasksCount": 6,
+            "ticketAppID": -1,
+            "ticketID": -1,
+            "valuePoints": 0,
+            "version": "189852646"
+          },
+          {
+            "attachmentsCount": 0,
+            "cssClass": "default",
+            "description": "See subtasks for testing items.",
+            "endDate": null,
+            "estimatedHours": 2,
+            "id": 2826262,
+            "isStory": false,
+            "issuesCount": 5,
+            "listId": 33668,
+            "name": "Project Requests",
+            "openIssuesCount": 0,
+            "openSubtasksCount": 0,
+            "order": 6,
+            "owners": [
+              {
+                "email": "astreet@teamdynamix.com",
+                "firstName": "Alex",
+                "lastName": "Street",
+                "name": "Alex Street",
+                "permissions": null,
+                "profilePicturePath": "assets/images/alexstreet.jpeg",
+                "referenceId": 3847,
+                "uid": "ce9058f7-c42c-4bc0-999f-4e482dc4f6c1"
+              }
+            ],
+            "percentComplete": 100,
+            "planId": 2826249,
+            "priorityId": 0,
+            "projectId": 29626250,
+            "remainingHours": 0,
+            "startDate": null,
+            "storyPoints": 0,
+            "subtasksCount": 5,
+            "ticketAppID": -1,
+            "ticketID": -1,
+            "valuePoints": 0,
+            "version": "189852625"
+          },
+          {
+            "attachmentsCount": 0,
+            "cssClass": "default",
+            "description": "See subtasks for testing items.",
+            "endDate": null,
+            "estimatedHours": 2,
+            "id": 2826268,
+            "isStory": false,
+            "issuesCount": 4,
+            "listId": 33668,
+            "name": "Projects",
+            "openIssuesCount": 0,
+            "openSubtasksCount": 0,
+            "order": 7,
+            "owners": [
+              {
+                "email": "astreet@teamdynamix.com",
+                "firstName": "Alex",
+                "lastName": "Street",
+                "name": "Alex Street",
+                "permissions": null,
+                "profilePicturePath": "assets/images/alexstreet.jpeg",
+                "referenceId": 3847,
+                "uid": "ce9058f7-c42c-4bc0-999f-4e482dc4f6c1"
+              }
+            ],
+            "percentComplete": 100,
+            "planId": 2826249,
+            "priorityId": 0,
+            "projectId": 29626250,
+            "remainingHours": 0,
+            "startDate": null,
+            "storyPoints": 0,
+            "subtasksCount": 15,
+            "ticketAppID": -1,
+            "ticketID": -1,
+            "valuePoints": 0,
+            "version": "189852626"
+          }
+        ],
+        "description": null,
+        "id": 33668,
+        "limits": [],
+        "order": 4,
+        "percentComplete": 100,
+        "planId": 2826249,
+        "projectId": 29626250,
+        "statusTypeId": 0,
+        "title": "Archive"
+      }
+    ],
+    "myWorkTaskIDs":[],
+    "name": "Comprehensive Testing",
+    "priorities": [
+      {
+        "id": 0,
+        "name": ""
+      },
+      {
+        "id": 1,
+        "name": "High"
+      },
+      {
+        "id": 2,
+        "name": "Medium/High"
+      },
+      {
+        "id": 3,
+        "name": "Medium"
+      },
+      {
+        "id": 4,
+        "name": "Medium/Low"
+      },
+      {
+        "id": 5,
+        "name": "Low"
+      }
+    ],
+    "projectId": 296250,
+    "projectName": "10.0 Development",
+    "resources": [
+      {
+        "email": "astreet@teamdynamix.com",
+        "firstName": "Alex",
+        "lastName": "Street",
+        "name": "Alex Street",
+        "permissions": null,
+        "profilePicturePath": "assets/images/alexstreet.jpeg",
+        "referenceId": 3847,
+        "uid": "ce9058f7-c42c-4bc0-999f-4e482dc4f6c1"
+      },
+      {
+        "email": "cstock@teamdynamix.com",
+        "firstName": "Catherine",
+        "lastName": "Stock",
+        "name": "Catherine Stock",
+        "permissions": null,
+        "profilePicturePath": "assets/images/catherinestock.gif",
+        "referenceId": 3566,
+        "uid": "eb522e04-bab6-4911-aad8-49121fbf594b"
+      },
+      {
+        "email": "chris.neiger@teamdynamix.com",
+        "firstName": "Chris",
+        "lastName": "Neiger",
+        "name": "Chris Neiger",
+        "permissions": null,
+        "profilePicturePath": "assets/images/chrisneiger.jpeg",
+        "referenceId": 472033,
+        "uid": "aa8167b7-0da3-e411-a550-0010188dda92"
+      },
+      {
+        "email": "jacob.rutter@teamdynamix.com",
+        "firstName": "Jacob",
+        "lastName": "Rutter",
+        "name": "Jacob Rutter",
+        "permissions": null,
+        "profilePicturePath": "assets/images/jacobrutter.jpeg",
+        "referenceId": 2834364,
+        "uid": "78ec654f-531b-e711-80ce-000d3a13db68"
+      },
+      {
+        "email": "jacob.turner@teamdynamix.com",
+        "firstName": "Jacob",
+        "lastName": "Turner",
+        "name": "Jacob Turner",
+        "permissions": null,
+        "profilePicturePath": "assets/images/acobturner.jpeg",
+        "referenceId": 1492743,
+        "uid": "8279bfe8-4c06-e611-80ce-000d3a133f86"
+      },
+      {
+        "email": "jamey.stock@teamdynamix.com",
+        "firstName": "Jamey",
+        "lastName": "Stock",
+        "name": "Jamey Stock",
+        "permissions": null,
+        "profilePicturePath": "assets/images/jameystock.jpeg",
+        "referenceId": 34804,
+        "uid": "fc773dc9-b477-e211-865a-0010188dda92"
+      },
+      {
+        "email": "joseph.samons@teamdynamix.com",
+        "firstName": "Joseph",
+        "lastName": "Samons",
+        "name": "Joseph Samons",
+        "permissions": null,
+        "profilePicturePath": "assets/images/josephsamons.jpeg",
+        "referenceId": 4391753,
+        "uid": "c28d8199-4a83-e711-a950-000d3a1afc30"
+      },
+      {
+        "email": "lucas.schill@teamdynamix.com",
+        "firstName": "Lucas",
+        "lastName": "Schill",
+        "name": "Lucas Schill",
+        "permissions": null,
+        "profilePicturePath": "assets/images/lucasschill.png",
+        "referenceId": 4157216,
+        "uid": "a936d21a-af70-e711-a950-000d3a1afc30"
+      },
+      {
+        "email": "meland@teamdynamix.com",
+        "firstName": "Matt",
+        "lastName": "Eland",
+        "name": "Matt Eland",
+        "permissions": null,
+        "profilePicturePath": "assets/images/matteleand.jpeg",
+        "referenceId": 8586,
+        "uid": "241e76b7-5854-4c94-9d95-aebbb162c60f"
+      },
+      {
+        "email": "msayers@teamdynamix.com",
+        "firstName": "Matt",
+        "lastName": "Sayers",
+        "name": "Matt Sayers",
+        "permissions": null,
+        "profilePicturePath": "assets/images/mattsayers.jpeg",
+        "referenceId": 11045,
+        "uid": "0f90ccf5-14e9-49b5-b545-e05c356e177a"
+      },
+      {
+        "email": "robert.osur@teamdynamix.com",
+        "firstName": "Robert",
+        "lastName": "Osur",
+        "name": "Robert Osur",
+        "permissions": null,
+        "profilePicturePath": "assets/images/robertosur.jpeg",
+        "referenceId": 582769,
+        "uid": "d5baeb97-69f2-e411-aebe-0010188dda92"
+      },
+      {
+        "email": "sean.lawrenz@teamdynamix.com",
+        "firstName": "Sean",
+        "lastName": "Lawrenz",
+        "name": "Sean Lawrenz",
+        "permissions": null,
+        "profilePicturePath": "assets/images/seanlawrenz.jpeg",
+        "referenceId": 582769,
+        "uid": "a93d7337-ba6e-e511-b52c-000d3a113e84"
+      },
+      {
+        "email": "spencer.lucas@teamdynamix.com",
+        "firstName": "Spencer",
+        "lastName": "Lucas",
+        "name": "Spencer Lucas",
+        "permissions": null,
+        "profilePicturePath": "assets/images/spencerlucas.jpeg",
+        "referenceId": 4391749,
+        "uid": "cf5e2f84-4983-e711-a950-000d3a1afc30"
+      },
+      {
+        "email": "thomas.mullaly@teamdynamix.com",
+        "firstName": "Thomas",
+        "lastName": "Mullaly",
+        "name": "Thomas Mullaly",
+        "permissions": null,
+        "profilePicturePath": "assets/images/thomasmullaly.png",
+        "referenceId": 1693408,
+        "uid": "da22d3cd-c260-e611-80cd-000d3a13db68"
+      }
+    ],
+    "statusTypes": {
+      "1": "New",
+      "2": "In Process",
+      "3": "Completed",
+      "4": "Cancelled",
+      "5": "On Hold"
+    },
+    "useRemainingHours": true
   }
 }
